@@ -50,7 +50,6 @@ h1 {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  align-content: start;
 }
 
 footer {
