@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #4d4d4d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-item1 {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#souppicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#suppe {
+  width: 50%;
+}
+
+.grid-item3,
+.grid-item4 {
+  background-color: white;
+  padding: 20px;
+}
+
+#preptime b,
+#method b {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #4d4d4d;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
